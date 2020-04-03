@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Raleway-semibold';
+  src: url('../Raleway-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../icon.woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+#header {
+  font-size: 45pt;
+  /* font-size: 54px; */
+  font-weight: 300;
+  color: #22a39f;
+  font-family: 'Open Sans';
+  background-color: #1b242f !important;
+}
+h6 {
+  font-family: 'Raleway-semibold';
+}
+li {
+  list-style-type: none;
+  margin: auto;
+}
+.collection li.collection-item:not(.active):hover {
+  background-color: #ddd;
+}
+li > a {
+  /* font-family: 'Roboto'; */
+  /* font-family: 'Segoe UI', Tahoma, sans-serif; */
+  font-family: sans-serif;
+  font-size: 1.4em;
+  max-width: 75%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  min-width: 600px;
+  height: auto;
+}
+#source {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.collection .collection-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+span.badge.new {
+  font-weight: 300;
+  font-size: 2rem;
+}
+span.badge {
+  line-height: 34px;
+  height: 32px;
+}
+.options {
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#totalLinks {
+  display: flex;
+  align-items: center;
+}
+.footnote {
+  display: flex;
+  justify-content: center;
+  background: #1b242f;
+  font-family: 'Raleway-semibold';
+  font-size: 12px;
+}
+.highlight {
+  color: #e31b6d;
+}
+.author {
+  font-family: 'Raleway-semibold';
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.collapsible {
+  margin-bottom: 0;
+}
+#anchorDiv {
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+a :hover {
+  transform: scale(1.1);
+}

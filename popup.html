@@ -1,0 +1,88 @@
+<!--
+Description: Save links and browse them later
+Author: CJ
+www.devcj.in
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browse Later</title>
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body class="container">
+    <div id="header" class="center-align light-blue darken-3 z-depth-1">
+      <h2>
+        Browse Later
+      </h2>
+      <h6><span class="highlight">Save now, Browse Later</span></h6>
+    </div>
+    <div id="container" class="options">
+      <div id="totalLinks">
+        <h6>Total Links:</h6>
+        <span
+          id="linkNo"
+          class="new badge large blue"
+          data-badge-caption=""
+        ></span>
+      </div>
+      <button id="add" class="waves-effect waves-light  btn-small">
+        <i class="material-icons left">add</i>Add This Page
+      </button>
+      <button id="clearAll" class="waves-effect waves-light  btn-small">
+        <i class="material-icons left">clear_all</i>Remove All
+      </button>
+    </div>
+    <div id="links" class="collection"></div>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header footnote author">
+          Built By &nbsp;
+          <span class="highlight">CJ</span>
+        </div>
+        <div class="collapsible-body " id="anchorDiv">
+          <div class="options">
+            <a
+              target="_blank"
+              href="https://devcj.in"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="Check my website"
+            >
+              <img src="./css/svg/cmw.svg" />
+            </a>
+            <a
+              target="_blank"
+              href="https://forms.gle/QhrzAmSnjry7Se977"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="Feedback"
+            >
+              <img src="./css/svg/feedback.svg" />
+            </a>
+            <a
+              target="_blank"
+              href="https://chrome.google.com/webstore/detail/browse-later/bcgkehdokpgflhkpfmoeihlndaklcbij/reviews"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="Rating"
+            >
+              <img src="./css/svg/rate.svg" />
+            </a>
+            <a
+              target="_blank"
+              href="https://twitter.com/intent/tweet?text=Browse Later - save links in extension to browse later build by @STOIC_CJ %0ADownload here : https://www.devcj.in/%23BrowseLater %0A%23chrome %23extension %23javascript %23dev"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="Tweet"
+            >
+              <img src="./css/svg/tweet.svg" />
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script src="popup.js"></script>
+    <script src="./js/materialize.min.js"></script>
+  </body>
+</html>
